@@ -1,0 +1,26 @@
+{
+  "name": "coding-challenge-escrow",
+  "version": "0.0.1",
+  "description": "Escrow coding challenges for prospective engineers",
+  "main": "./build/index.js",
+  "license": "SEE LICENSE",
+  "scripts": {
+    "build": "ntsc",
+    "watch": "ntsc --watch",
+    "start": "node ./build/index.js",
+    "test": "ntsc && ./node_modules/.bin/jasmine"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.53",
+    "internal-storage": "^0.1.1",
+    "node-uuid": "^1.4.8",
+    "ntypescript": "^1.201706190042.1"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.2",
+    "@types/node-uuid": "^0.0.28",
+    "jasmine": "^2.8.0",
+    "jasmine-ts-console-reporter": "^3.1.0",
+    "typescript": "^2.5.2"
+  }
+}

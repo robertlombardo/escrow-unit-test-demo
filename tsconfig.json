@@ -1,0 +1,15 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2016",
+        // "lib": ["es6"],
+        "noImplicitAny": false,
+        // "sourceMap": true,
+        // "inlineSources": true,
+        "declaration": true,
+        "inlineSourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "./build/"
+    }
+}
